@@ -695,6 +695,19 @@ select {
 .footer-link-block__list > *:not(:last-child) {
   margin: 0px 0px 30px 0px;
 }
+.footer-link-block__list-nav {
+}
+.footer-link-block__list-nav > * {
+  display: flex;
+  gap: 5px;
+}
+.footer-link-block__list-nav > *::before {
+  content: "";
+  margin: auto 0px;
+  height: 2px;
+  width: 15px;
+  background-color: #fff;
+}
 .footer-link-block__address {
   font-style: normal;
 }
